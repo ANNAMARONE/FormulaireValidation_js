@@ -87,10 +87,7 @@ function setSuccess(elem) {
 }
 
 function email_verify(email) {
-    /*
-    * r_rona.22-t@gmail.com
-        /^[a-z0-9._-]+@[a-z0-9._-]{2,}\.[a-z]{2,4}$/
-    */
+    
     return /^[a-z0-9._-]+@[a-z0-9._-]{2,}\.[a-z]{2,4}$/.test(email);
 }
 function password_verify(passeword) {
