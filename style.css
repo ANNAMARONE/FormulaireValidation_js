@@ -6,7 +6,7 @@
     --color-second:#f0f0f0;
     --color-white:#fff;
     --color-success:#2ecc71;
-    --color-error:#e74c3c;
+    --color-error:#CE0033;
 }
 body{
     background: var(--color-first);
@@ -88,4 +88,8 @@ body{
 .form-control.error small{
     color: var(--color-error);
     visibility: visible;
+}
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
 }
